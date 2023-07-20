@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>personal Portfolio Website-Krishna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="coontainer">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>AI Enthusiast</p>
+            <h1>Hey, I'm <span> Krishna Kanth </span> <br> From India</h1>
+        </div>
+    </div>
+ 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Passionate, versatile, and ready to make an impact-driven by ambition,
+                    fueled by creativity, and dedicated to <br> excellence. Data whisperer and
+                     machine learning enthusiastm,transforming raw information into 
+                    actionable insights with a touch of algorithmic magic.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>
