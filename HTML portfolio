@@ -59,7 +59,7 @@
                 </div>
                 <div class="tab-contents" id="Education">
                     <ul>
-                        <li><span>B.Tech 2021-25</span><br>Rajalakshmi Institute of Technolgy</li>
+                        <li><span>B.Tech (Artificial Inteligence & Data Science)</span><br>Rajalakshmi Institute of Technology</li>
                         <li><span>HSC 2021</span><br>Edustar International School</li>
                         <li><span>SSLC 2019</span><br>Edustar International School</li>
                         
@@ -91,9 +91,66 @@
 <!-------------------------portfolio------------------------------------->
 <div id="portfolio">
     <div class="container">
-        <h1 class="subtitle">My Work</h1>
+        <h1 class="subtitle" style="margin-top: -60%;">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work 1.png">
+                <div class="layer">
+                    <h3>Attendance Maintance</h3>
+                    <p style="text-align-last: justify;">This method of learning maintains the attendance of buses and class rooms through scanning the barcode that is present on the students identity cards. </p>
+                        <a href="#"><i class="fa-solid fa-paperclip" style="color: #ff004f;;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work 2.png">
+                <div class="layer">
+                    <h3>Night Headlight Issues</h3>
+                    <p style="list-style: justify-self: unset;">This work reduces the high beam and it retrieve the nescessory details. </p>
+                        <a href="#"><i class="fa-solid fa-paperclip" style="color: #ff004f;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work 3.png">
+                <div class="layer">
+                    <h3>RPA Ui Path</h3>
+                    <p style="list-style: justify-self: unset;">This work results the automated process of finding the nickname through automated process for many inputs at a time. </p>
+                        <a href="#"><i class="fa-solid fa-paperclip" style="color: #ff004f;"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
     </div>
 </div>
+<!---------------------------------------------contact-------------------------------------------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left" style="justify-content: left;">
+                <h1 class ="sub-title">Contact Me</h1>
+                <p><i><i class="fa-solid fa-paper-plane" style="color: #ff004f;"></i></i>contact@example.com</p>
+                <p><i><i class="fa-solid fa-phone" style="color:#ff004f;"></i></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://github.com/krishnakanth22"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                    <a href="https://www.linkedin.com/in/krishnakanth-v-s-62120524b"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                    <a href="https://www.hackerrank.com/krishnakanth_v_1?hr_r=1"><i class="fa-brands fa-hackerrank" style="color: #ffffff;"></i></a>
+                    <a href="krishnakanth.v.s.2021.ad@ritchennai.edu.in"><i class="fa-regular fa-envelope" style="color: #ffffff;"></i></a>
+                </div>
+                <a href="KRISHNA KANTH RESUME.pdf"Download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <script>
     var tablinks=document.getElementsByClassName("tab-links")
     var tabcontents=document.getElementsByClassName("tab-contents")
