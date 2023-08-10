@@ -1,112 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>personal Portfolio Website-Krishna</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>krishnakanth Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/d27effc410.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<div id="header">
-    <div class="coontainer">
-        <nav>
-            <img src="logo.png" class="logo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="header-text">
-            <p>AI Enthusiast</p>
-            <h1>Hey, I'm <span> Krishna Kanth </span> <br> From India</h1>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>AI&ML Enthusiast</p>
+                <h1>Hi, I'm <span>Krishna Kanth</span><br>From India</h1>
+            </div>
         </div>
     </div>
- 
-                    <div class="a">
-                    <img style="width: 275px; margin-top: 10%; margin-left: 68%;"src="user.png">
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
                 </div>
-                
-                
-                    <h1 style="margin-top: -25%;margin-left: 10%;">About Me</h1>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
                     <p>Passionate, versatile, and ready to make an impact-driven by ambition,
-                    fueled by creativity, and dedicated to excellence. Data whisperer and
-                     machine learning enthusiastm,transforming raw information into 
-                    actionable insights with a touch of algorithmic magic.</p>
-               
-                <div class="tab-titles">
-                    <p class="tab-links active-link"onclick="opentab('Skills')">Skills</p>
-                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
-                    <p class="tab-links"onclick="opentab('Education')">Education</p>
-                </div>
-                <div class="tab-contents active-tab" id="Skills">
-                    <ul>
+                        fueled by creativity, and dedicated to excellence. Data whisperer and
+                         machine learning enthusiastm,transforming raw information into 
+                        actionable insights with a touch of algorithmic magic.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
                         <li><span>Machine learning</span><br>working on real-time statements</li>
                         <li><span>Data Analytics</span><br>Dashboard Creation</li>
                         <li><span>Web Development</span><br>Web App Development</li>
                         <li><span>Web 3.0</span><br>Blockchain technology</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="Experience">
-                    <ul>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
                         <li><span>ZF Internship 2023</span><br>Transport Fleet Management</li>
                         <li><span>ALt Hack Chennai 2023</span><br>Metaverse 3.0 Revhead project</li>
                         <li><span>Rota-Techx 2023</span><br>CCTV Survillence with AI</li>
                         <li><span>Chennai Cyber Hackathon-2022</span><br>Night headlight issues</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="Education">
-                    <ul>
-                        <li><span>B.Tech 2021-25</span><br>Rajalakshmi Institute of Technolgy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        <li><span>B.Tech (Artificial Inteligence & Data Science)</span><br>Rajalakshmi Institute of Technology</li>
                         <li><span>HSC 2021</span><br>Edustar International School</li>
                         <li><span>SSLC 2019</span><br>Edustar International School</li>
-                        
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
-
-</div>
-<!--------------------servives------------------------------------>
-<div id="services">
-    <div class="container">
-        <h1 class="subtitle">My services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-magnifying-glass-chart" style="color: #ffffff;"></i>
-                <h2>Data Analytics</h2>
-                <p>As Intern in ZF Data Centre</p>
-                <a href="#">Learn more</a>
             </div>
-            <div>
-                <i class="fa-solid fa-link" style="color: #ffffff;"></i>
-                <h2>Web 3.0 Developer</h2>
-                <p>IBC Media's Internship</p>
-                <a href="#">Learn more</a>
-            </div>
-            
         </div>
     </div>
-</div>
-<!-------------------------portfolio------------------------------------->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="subtitle">My Work</h1>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart" style="color: #ffffff;"></i>
+                    <h2>Data Analytics</h2>
+                    <p>As Intern in ZF Data Centre, work on real-time based project that works with transport route optimazation 
+                        and fuel effiency of transport Maintance
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>As Intern in ZF Groups, Worked on Web development where created the web Dashboard, that provides the 
+                        details of Transport Fleet System
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-link" style="color: #ffffff;"></i>
+                    <h2>Web 3.0 Developer</h2>
+                    <p>IBC Media's Internship</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<script>
-    var tablinks=document.getElementsByClassName("tab-links")
-    var tabcontents=document.getElementsByClassName("tab-contents")
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link")
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work 1.png" alt="">
+                    <div class="layer">
+                        <h2>Attendance Maintance</h2>
+                        <p>This method of learning maintains the attendance of buses and class rooms through scanning the barcode that is present on the students identity cards.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work 2.png" alt="">
+                    <div class="layer">
+                        <h2>Night Headlight Issues</h2>
+                        <p>This work reduces the high beam and it retrieve the nescessory details.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work 3.png" alt="">
+                    <div class="layer">
+                        <h2>Transport Fleet Management</h2>
+                        <p>It works with past or live data from car performance and boarding student data in this case.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> example@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 1234567890</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Dev Alphaspace. Made with <i class="fas fa-heart"></i> by Dev Alphaspace</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
         }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab")
-        }
-        event.currentTarget.classList.add("active-link")
-        document.getElementById(tabname).classList.add("active-tab")
-    }
-</script>
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
 </body>
+
 </html>
